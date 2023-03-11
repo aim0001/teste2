@@ -1,0 +1,13 @@
+Section 2
+Algorithme 
+   var  ch[20]:Chaine;
+    i: Entier;
+   	Afficher("Entrez un mot : ");
+    Lire(&ch);
+    Pour i=0 à <strlen(ch) par pas de 1
+        Si ch[i],ch[i+1] alors
+            afficher(ch[i]);
+        }
+    }
+    afficher("Le(s) lettre(s) repete: %c",ch[i]);
+    return 0;
